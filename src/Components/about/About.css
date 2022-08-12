@@ -12,8 +12,12 @@
     flex-direction: column;
     align-items: center;
 }
+.about__imagen__container{
+    object-fit: contain;
+}
 .about__imagen{
     height: 60rem;
+    object-fit:fill;
 }
 
 .about__title{
@@ -30,7 +34,7 @@
     }
     .about__imagen{
         width: 120rem;
-        height: 90vh;
+        height: 70vh;
     }
     .about__title{
         text-align: left;
