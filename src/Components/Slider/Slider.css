@@ -1,0 +1,39 @@
+.slider__container{
+    padding: 0rem 0 8rem 0;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    background-color: black;
+    
+}
+.slider__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.slider__images > img{
+    max-width: 60rem;
+}
+.slider__title{
+    margin-top: 3rem;
+    font-size: 5rem;
+}
+.slider__contenido{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media (min-width: 768px){ 
+    .slider__images{
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+       
+    }
+    
+}
