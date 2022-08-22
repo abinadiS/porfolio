@@ -1,7 +1,7 @@
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import "./Slider.css";
-import image from "../../media/prueba.jpg"
+import image from "../../media/guia.png"
 
 
 const Slider = () => {
@@ -13,13 +13,14 @@ const Slider = () => {
            
       </div>
 
-      <div className="slider__images" >
-          <img src={image} />
-          <img src={image} />
-          <img src={image}/>
-          <img src={image} />
-          <img src={image} />
-          <img src={image}/>
+      
+        <div className="slider__proyecto--uno">
+            <div className="slider__proyecto__contenido">
+                 <h3>Dicctyonary</h3>
+                 <p>Diccionario con API </p>
+        </div>
+          
+          
 
           
          

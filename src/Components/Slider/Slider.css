@@ -1,23 +1,13 @@
-.slider__container{
-    padding: 0rem 0 8rem 0;
-    display: flex;
-    flex-direction: column;
-    gap:5rem;
-    background-color: black;
-    
-}
-.slider__images{
+.slider__container{   
+    padding: 0rem 0 3rem 0;
+    background-color: #1b1a16;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1rem;
 }
-.slider__images > img{
-    max-width: 60rem;
-}
+
 .slider__title{
-    margin-top: 3rem;
-    font-size: 5rem;
+    margin: 2.5rem 0;
 }
 .slider__contenido{
     color: white;
@@ -25,6 +15,28 @@
     flex-direction: column;
     align-items: center;
     
+}
+.slider__proyecto--uno{
+    width: 50rem;
+    height: 45rem;
+    background-image: url("../../media/guia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border: 1px solid white;
+}
+.slider__proyecto__contenido{
+    background-color: #1b1a16;
+    width: 25rem;
+    height:15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:white;
 }
 
 @media (min-width: 768px){ 
@@ -36,4 +48,13 @@
        
     }
     
+}
+@media (min-width: 1200px){ 
+    .slider__images > img{
+        margin-right: 1rem;
+    }
+    .slider__images{
+    padding: 1rem;
+         
+      }
 }
