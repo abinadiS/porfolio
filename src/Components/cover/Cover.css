@@ -18,6 +18,7 @@
 .cover__name{
     color: white;
     font-size: 5rem;
+    text-align: center;
 }
 .cover__description{
     color:white;
