@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import About from './Components/about/About';
 import Cover from './Components/cover/Cover'
@@ -13,19 +13,19 @@ function App() {
     window.addEventListener("scroll", handleScroll);
   }, [scrollHeight]);
 
-  const handleScroll = () =>{
+  const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollHeight(position);
-    
+
   }
 
   return (
     <div className='app'>
-      <Navbar scrollHeight={scrollHeight}/>
-      <Cover/>
-      <About/>
-      <Slider/>
-      <Skills/>
+      <Navbar scrollHeight={scrollHeight} />
+      <Cover />
+      <About />
+      <Slider />
+      <Skills />
     </div>
   )
 }
