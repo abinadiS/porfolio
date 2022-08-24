@@ -26,6 +26,7 @@
         align-items: center;
     }
     .about__container{
+        padding: 0 3rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 3rem;
@@ -42,5 +43,9 @@
 @media (min-width: 1000px){ 
     .about__imagen{
         height: 100vh;
+    }
+    .about__container{
+        padding: 0 10rem;
+    
     }
 }
