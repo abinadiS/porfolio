@@ -3,8 +3,11 @@
     background-color: #e5e3dd;
     
 }
+.about__description{
+    font-size: 3rem;
+}
 .about__contenido{
-    padding: 2rem;
+    padding: 2.3rem;
     
 }
 .about__imagen{
@@ -13,7 +16,7 @@
     padding: 2rem;
 }
 .about__title{
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -33,7 +36,8 @@
         
     }
     .about__imagen{
-        height: 60vh;
+        margin-top: 8rem;
+        height: 75vh;
     }
     .about__title{
         text-align: left;
@@ -43,6 +47,7 @@
 @media (min-width: 1000px){ 
     .about__imagen{
         height: 100vh;
+        margin-top: 0;
     }
     .about__container{
         padding: 0 10rem;
