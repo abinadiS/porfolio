@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import About from './Components/about/About';
 import Cover from './Components/cover/Cover'
+import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar'
 import Skills from './Components/Skills/Skills';
 import Slider from './Components/Slider/Slider';
@@ -26,6 +27,7 @@ function App() {
       <About />
       <Slider />
       <Skills />
+      <Footer/>
     </div>
   )
 }
