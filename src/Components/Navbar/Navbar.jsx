@@ -8,7 +8,9 @@ const Navbar = ({ scrollHeight }) => {
     }
     return (
         <div className={`navbar ${scrollHeight > 20 ? "scrolling" : null}`}>
-            <div className="navbar__logo" onClick={toTheTop}>Abinadi</div>
+            <div className="navbar__logo" onClick={toTheTop}>Inicio</div>
+            <div className="navbar__logo" >Descargar CV</div>
+            <div className="navbar__logo" >Contacto</div>
         </div>
     );
 }
