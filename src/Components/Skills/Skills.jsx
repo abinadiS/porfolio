@@ -5,8 +5,7 @@ import html from "../../media/html.svg";
 import Javascript from "../../media/js.svg";
 import vitejs from "../../media/vitejs.svg";
 import react from "../../media/react.svg";
-import styled from "../../media/styled-components.svg"
-import git from "../../media/git.svg"
+import git from "../../media/git.svg";
 
 const Skills = () => {
     return ( 
